@@ -13,7 +13,6 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    border: 1px solid black;
 }
 html{
     width: 1440px;
@@ -39,8 +38,8 @@ a{
     font-size: 18px;
     line-height: 1.3;
     color: #4D5AE5;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     padding-left: 156px;
 }
 .icon1{
@@ -167,12 +166,6 @@ main{
     text-align: center;
     margin: auto;
 }
-link0{
-    padding-top: 64px;
-    padding-right: 667px;
-    padding-bottom: 208px;
-    padding-left: 667px;
-}
 .link0:hover{
 background-color: 
 #404BBF;
@@ -236,6 +229,7 @@ text{
     display: flex;
     justify-content: center;
     padding: 120px 0 72px 0;
+    margin-bottom: 0;
 }
 .text:active{
     color: #2E2F42;
@@ -291,6 +285,7 @@ text{
 }
 .item101{
     display: inline-block;
+    margin-right: 24px;
 }
 .text77{
     display: flex;
@@ -315,7 +310,7 @@ text{
     color: #2E2F42;
     font-size: 20px;
     display: flex;
-    margin: 0 auto;
+    margin: 0;
     padding-left: 156px;
     padding-right: 156px;
     padding-top: 120px;
@@ -500,6 +495,12 @@ margin-right: 24px;
 .item99{
     margin-right: 48px;
 }
-.container{
-    border: 1px solid black;
+.container2{
+    height: 310px;
+}
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 1020px;
+    padding-left: 156px;
 }
