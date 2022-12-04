@@ -289,8 +289,8 @@ text{
     margin-top: 24px;
     margin-bottom: 24px;
 }
-.item1001{
-    
+.item101{
+    display: inline-block;
 }
 .text77{
     display: flex;
@@ -328,7 +328,10 @@ text{
     padding-right: 559px;
 }
 .photo13{
-    
+    margin-right: 24px;
+}
+.photo13:last-child{
+    margin-right: 0;
 }
 .photo12{
     list-style: none;
@@ -351,6 +354,8 @@ text{
     letter-spacing: 2%;
     color: #2E2F42;
     background-color:  #FFFFFF;
+    margin-top: 32px;
+
 }
 .list-item1{
     font-size: 16px;
@@ -358,6 +363,11 @@ text{
     letter-spacing: 2%;
     color: #434455;
     background-color:  #FFFFFF;
+    margin-top: 8px;
+    margin-bottom: 120px;
+}
+.list-item1:last-child{
+    margin-bottom: 152px;
 }
 .items{
     list-style: none;
@@ -462,18 +472,18 @@ margin-right: 24px;
 }
 .list1{
     display: block;
-    width: 1128px;
+    width: 1440px;
     font-family: 'Roboto', sans-serif;
     list-style: none;
     background-color: #FFFFFF;
     color: #2E2F42;
     font-size: 20px;
-    margin: 0;
+    padding-left: 156px;
 }
 .li .item101{
     width: 100%;
     display: inline-block;
-    padding-right: 19px;
+    margin-right: 24px;
 }
 .li .item101:last-child{
     margin-right: 0;
@@ -489,4 +499,7 @@ margin-right: 24px;
 }
 .item99{
     margin-right: 48px;
+}
+.container{
+    border: 1px solid black;
 }
