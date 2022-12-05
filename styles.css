@@ -418,6 +418,8 @@ text{
     line-height: 1.1;
     letter-spacing: 2%;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 .list-item3{
     font-weight: 600;
