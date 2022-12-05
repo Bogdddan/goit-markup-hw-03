@@ -285,12 +285,14 @@ text{
     color: #4D5AE5;
 }
 .ullist1{
-    justify-content: space-between;
     list-style: none;
     display: flex;
     margin-top: 24px;
     margin-bottom: 24px;
     padding-left: 331px;
+}
+.item1001:first-child{
+    margin-right: 40px;
 }
 .item101{
     display: inline-block;
@@ -306,7 +308,6 @@ text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
-    margin-right: 40px;
 }
 .text77:last-child{
     margin-right: ;
