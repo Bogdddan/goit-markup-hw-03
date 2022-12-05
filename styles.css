@@ -20,6 +20,9 @@ header{
     width: 1440px;
     height: 72px;
 }
+section .container{
+    color: #FFFFFF;
+}
 .ittem101{
     border-color: #2E2F42;
 }
@@ -192,10 +195,8 @@ h1{
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
-    margin-bottom: 48px;
     width: 492px;
     margin: 0 auto;
-    margin-bottom: 48px;
     text-align: center;
 }
 li > p {
@@ -340,9 +341,6 @@ text{
     padding-bottom: 120px;
     margin-bottom: 0;
 }
-.headline2{
-    background-color: #F4F4FD;
-}
 .list-item{
     font-size: 20px;
     line-height: 1.2;
@@ -421,9 +419,6 @@ text{
     letter-spacing: 2%;
     text-align: center;
 }
-.headline1{
-    background-color: #FFFFFF;
-}
 .list-item3{
     font-weight: 600;
     font-size: 20px;
@@ -496,19 +491,20 @@ text{
 .item99{
     margin-right: 48px;
 }
-.container2{
-    height: 310px;
-}
-.footer{
-    padding-top: 108px;
-    padding-bottom: 100px;
-    padding-right: 1020px;
-    padding-left: 156px;
-}
 .icon1{
     padding: 0;
 }
 section{
     padding-top: 120px;
     padding-bottom: 120px;
+}
+footer .container{
+    margin: 100px 1020px 100px 156px;
+    padding: 0;
+}
+section .container{
+    background-color: #F4F4FD;
+}
+.background{
+    background-color: #2E2F42;
 }
