@@ -24,6 +24,14 @@ header{
     width: 1440px;
     height: 72px;
 }
+.ittem101{
+    border-color: #2E2F42;
+}
+.main-nav2{
+}
+.list88{
+    padding-bottom: 32px;
+}
 .main-nav{
     display: flex;
     height: 72px;
@@ -167,8 +175,7 @@ main{
     margin: auto;
 }
 .link0:hover{
-background-color: 
-#404BBF;
+    background-color: #404BBF;
 }
 .link0:focus{
     background-color: 
@@ -204,7 +211,7 @@ h1{
     padding-left: 474px;
 }
 li > p {
-font-weight: 400;
+    font-weight: 400;
 }
 li > h3 {
     font-weight: 600;
@@ -278,24 +285,31 @@ text{
     color: #4D5AE5;
 }
 .ullist1{
+    justify-content: space-between;
     list-style: none;
     display: flex;
     margin-top: 24px;
     margin-bottom: 24px;
+    padding-left: 331px;
 }
 .item101{
     display: inline-block;
     margin-right: 24px;
+    border-bottom: 0.5px solid #F4F4FD;
 }
 .text77{
     display: flex;
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
+    justify-content: flex-end;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
     margin-right: 40px;
+}
+.text77:last-child{
+    margin-right: ;
 }
 .text77:hover{
     color: #434455;
@@ -315,6 +329,7 @@ text{
     padding-right: 156px;
     padding-top: 120px;
     padding-bottom: 120px;
+    border: #2E2F42;
 }
 .image12{
     margin-top: 0;
@@ -350,7 +365,6 @@ text{
     color: #2E2F42;
     background-color:  #FFFFFF;
     margin-top: 32px;
-
 }
 .list-item1{
     font-size: 16px;
@@ -362,7 +376,7 @@ text{
     margin-bottom: 120px;
 }
 .list-item1:last-child{
-    margin-bottom: 152px;
+    margin-bottom: 32px;
 }
 .items{
     list-style: none;
@@ -415,13 +429,13 @@ text{
     height: 72px;
 }
 .image12{
-color: #2E2F42;
-font-family: 'Roboto', sans-serif;
-font-weight: 600;
-font-size: 36px;
-line-height: 1.1;
-letter-spacing: 2%;
-text-align: center;
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 2%;
+    text-align: center;
 }
 .headline1{
     background-color: #FFFFFF;
@@ -438,18 +452,18 @@ text-align: center;
     text-align: left;
 }
 .list-item4{
-background-color: #FFFFFF;
-color: #434455;
-font-family: 'Roboto', sans-serif;;
-font-size: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 2%;
-margin-top: 8px;
-width: 264px;
-height: 72px;
-text-align: left;
-margin-right: 24px;
+    background-color: #FFFFFF;
+    color: #434455;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    margin-top: 8px;
+    width: 264px;
+    height: 72px;
+    text-align: left;
+    margin-right: 24px;
 }
 .item100{
     width: 264px;
@@ -467,18 +481,21 @@ margin-right: 24px;
 }
 .list1{
     display: block;
+    height: 2074px;
     width: 1440px;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     list-style: none;
     background-color: #FFFFFF;
     color: #2E2F42;
     font-size: 20px;
-    padding-left: 156px;
+    padding-right: 156px;
 }
 .li .item101{
     width: 100%;
     display: inline-block;
     margin-right: 24px;
+    border: #4D5AE5;
 }
 .li .item101:last-child{
     margin-right: 0;
