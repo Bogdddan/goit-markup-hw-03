@@ -316,6 +316,7 @@ text{
     margin: 0;
     padding: 0;
     border: #2E2F42;
+    justify-content: center;
 }
 .image12{
     margin-top: 0;
