@@ -361,7 +361,8 @@ nav{
     line-height: 1.5;
     letter-spacing: 2%;
     color: #434455;
-    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 0;
 
 }
 .items{
