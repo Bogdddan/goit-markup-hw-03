@@ -389,6 +389,7 @@ nav{
     letter-spacing: 2%;
     color: #2E2F42;
     background-color: #F4F4FD;
+    margin-bottom: 8px;
     margin: 0;
 }
 .text6{
@@ -397,7 +398,8 @@ nav{
     line-height: 1.5;
     letter-spacing: 2%;
     color: #434455;
-    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 0;
 }
 .list9{
     list-style: none;
