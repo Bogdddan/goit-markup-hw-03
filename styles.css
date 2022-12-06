@@ -8,8 +8,6 @@
     --brand-color: #F4F4FD;
 }
 body{
-    width: 1440px;
-    height: 2593px;
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
@@ -17,11 +15,10 @@ body{
 header{
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    width: 1440px;
     height: 72px;
 }
 .container{
-    width: 1440px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -56,9 +53,8 @@ a{
     color: #4D5AE5;
     width: 115px;
     height: 24px;
-    margin-left: 156px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-right: 77px;
 }
 .icon1{
@@ -277,16 +273,12 @@ text{
     margin-right: 40px;
     margin-top: 24px;
     margin-bottom: 24px;
-
 }
 .item1000:last-child{
+    margin-right: 0;
+}
+nav{
     margin-right: 331px;
-}
-.item1001:first-child{
-    margin-right: 40px;
-}
-.item1001:last-child{
-    margin-right: 156px;
 }
 .text7{
     display: flex;
@@ -308,6 +300,7 @@ text{
     display: flex;
     margin: 0;
     padding: 0;
+    gap: 40px;
 }
 .text77{
     display: flex;
@@ -505,6 +498,7 @@ text{
 section{
     padding-top: 120px;
     padding-bottom: 120px;
+    background-color: #2E2F42;
 }
 footer .container{
     margin: 0;
@@ -512,4 +506,7 @@ footer .container{
 }
 .background{
     background-color: #2E2F42;
+}
+.liit{
+    border-color: #8E8F99;
 }
