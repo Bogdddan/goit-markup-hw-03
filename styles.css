@@ -70,7 +70,7 @@ a{
 }
 main{
     font-family: 'Roboto', sans-serif;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
 .link1{
     width: 69px;
@@ -246,6 +246,7 @@ text{
     padding: 120px 0 72px 0;
     margin: 0;
     padding: 0;
+    gap: 24px;
 }
 .text:active{
     color: #2E2F42;
@@ -465,7 +466,9 @@ text{
     margin-right: 0;
 }
 .list1{
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     height: 1486px;
     width: 1440px;
     text-align: center;
