@@ -26,7 +26,11 @@ header{
     padding-right: 15px;
     margin: 0 auto;
 }
-section .container{
+section{
+    padding-top: 192px;
+    padding-bottom: 19px;
+}
+.container{
     color: #FFFFFF;
 }
 .ittem101{
@@ -38,6 +42,7 @@ section .container{
 .main-nav{
     display: flex;
     height: 72px;
+    align-items: center;
 }
 a{
     margin: 0px;
@@ -51,6 +56,10 @@ a{
     color: #4D5AE5;
     width: 115px;
     height: 24px;
+    margin-left: 156px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 77px;
 }
 .icon1{
     font-family: 'Raleway', sans-serif;
@@ -204,9 +213,10 @@ h1{
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
-    width: 492px;
+    max-width: 492px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 48px;
 }
 li > p {
     font-weight: 400;
@@ -263,10 +273,19 @@ text{
     padding: 0;
 }
 .item1000{
-    margin-right: 24px;
+    margin-right: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
 }
 .item1000:last-child{
-    margin-right: 0;
+    margin-right: 331px;
+}
+.item1001:first-child{
+    margin-right: 40px;
+}
+.item1001:last-child{
+    margin-right: 156px;
 }
 .text7{
     display: flex;
@@ -289,12 +308,8 @@ text{
     margin: 0;
     padding: 0;
 }
-.item1001:first-child{
-    margin-right: 40px;
-}
 .item101{
     display: inline-block;
-    margin-right: 24px;
     border-bottom: 0.5px solid #F4F4FD;
 }
 .text77{
@@ -306,6 +321,7 @@ text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
+    height: 24px;
 }
 .text77:hover{
     color: #434455;
@@ -324,6 +340,7 @@ text{
     padding: 0;
     border: #2E2F42;
     justify-content: center;
+    gap: 24px;
 }
 .photo13{
     margin-right: 24px;
@@ -354,9 +371,6 @@ text{
     color: #434455;
     background-color:  #FFFFFF;
     margin: 0;
-}
-.list-item1:last-child{
-    margin-bottom: 32px;
 }
 .items{
     list-style: none;
@@ -427,8 +441,7 @@ text{
     font-family: 'Roboto', sans-serif;
     line-height: 1.2;
     letter-spacing: 2%;
-    margin: 0;
-    text-align: left;
+    margin-bottom: 8px;
 }
 .list-item4{
     background-color: #FFFFFF;
@@ -446,10 +459,7 @@ text{
 .item100{
     width: 264px;
     height: 380px;
-    margin-right: 24px;
-}
-.item100:last-child{
-    margin-right: 0;
+    gap: 24px;
 }
 .item99:last-child{
     margin-right: 0;
@@ -466,6 +476,7 @@ text{
     font-size: 20px;
     padding: 0;
     margin: 0;
+    gap: 24px;
 }
 .li .item101{
     width: 100%;
@@ -481,6 +492,7 @@ text{
     padding: 0;
     display: flex;
     justify-content: center;
+    gap: 24px;
 }
 .item99{
     margin-right: 48px;
@@ -493,11 +505,8 @@ section{
     padding-bottom: 120px;
 }
 footer .container{
-    margin: 100px 1020px 100px 156px;
+    margin: 0;
     padding: 0;
-}
-section .container{
-    background-color: #F4F4FD;
 }
 .background{
     background-color: #2E2F42;
