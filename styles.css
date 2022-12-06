@@ -309,10 +309,6 @@ text{
     margin: 0;
     padding: 0;
 }
-.item101{
-    display: inline-block;
-    border-bottom: 0.5px solid #F4F4FD;
-}
 .text77{
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -357,12 +353,15 @@ text{
     margin: 0;
     padding: 0;
 }
+.wrap{
+    padding: 32px 16px;
+    border: 0.5px solid #F4F4FD;
+}
 .list-item{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 2%;
     color: #2E2F42;
-    background-color:  #FFFFFF;
     margin: 0;
 }
 .list-item1{
@@ -370,7 +369,6 @@ text{
     line-height: 1.5;
     letter-spacing: 2%;
     color: #434455;
-    background-color:  #FFFFFF;
     margin: 0;
 }
 .items{
@@ -480,6 +478,7 @@ text{
     padding: 0;
     margin: 0;
     gap: 24px;
+    row-gap: 48px;
 }
 .li .item101{
     width: 100%;
