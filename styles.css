@@ -18,7 +18,9 @@ section{
 header{
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    box-shadow: 0 1px 6px 0px #2E2F4214;
+}
+.top{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .container{
     width: 1158px;
