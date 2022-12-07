@@ -18,7 +18,7 @@ section{
 header{
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    height: 72px;
+    box-shadow: 0 1px 6px 0px #2E2F4214;
 }
 .container{
     width: 1158px;
@@ -83,7 +83,7 @@ main{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    padding: 8px 16px;
+    padding: 12px 24px;
 }
 .link1:hover{
     background-color: #4D5AE5;
@@ -104,7 +104,7 @@ main{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    padding: 8px 16px;
+    padding: 12px 24px;
 }
 .link2:hover{
     background-color: #4D5AE5;
@@ -125,7 +125,7 @@ main{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    padding: 8px 16px;
+    padding: 12px 24px;
 }
 .link3:hover{
     background-color: #4D5AE5;
@@ -146,7 +146,7 @@ main{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    padding: 8px 16px;
+    padding: 12px 24px;
 }
 .link4:hover{
     background-color: #4D5AE5;
@@ -167,7 +167,7 @@ main{
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    padding: 8px 16px;
+    padding: 12px 24px;
 }
 .link5:hover{
     background-color: #4D5AE5;
@@ -202,8 +202,8 @@ main{
     background-color: #2E2F42;
     color: #FFFFFF;
     text-align: cener;
-    padding-top: 190px;
-    padding-bottom: 190px;
+    padding-top: 192px;
+    padding-bottom: 192px;
 }
 h1{
     font-family: 'Roboto', sans-serif;
@@ -389,9 +389,9 @@ nav{
     line-height: 1.2;
     letter-spacing: 2%;
     color: #2E2F42;
-    background-color: #F4F4FD;
     margin-bottom: 8px;
     margin: 0;
+    text-align: center;
 }
 .text6{
     font-family: 'Roboto', sans-serif;
@@ -401,6 +401,7 @@ nav{
     color: #434455;
     margin-top: 8px;
     margin-bottom: 0;
+    text-align: center;
 }
 .list9{
     list-style: none;
@@ -456,7 +457,7 @@ nav{
 .item100{
     width: 264px;
     gap: 24px;
-    border-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .item99:last-child{
     margin-right: 0;
@@ -507,7 +508,7 @@ section{
 }
 .page1OurTeam{
     padding-top: 32px;
-    padding-bottom:32px ;
+    padding-bottom:32px;
 }
 footer{
     font-family: 'Roboto', sans-serif;
@@ -518,4 +519,11 @@ footer{
     padding: 0;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.page1text{
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+img{
+    display: block;
 }
