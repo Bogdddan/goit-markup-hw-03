@@ -11,6 +11,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 section{
     border-color: #FFFFFF;
@@ -20,7 +21,7 @@ header{
     background-color: #FFFFFF;
 }
 .top{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 .container{
     width: 1158px;
