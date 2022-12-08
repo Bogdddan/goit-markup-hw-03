@@ -17,10 +17,9 @@ section{
 }
 header{
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
 }
 .top{
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container{
     width: 1158px;
@@ -69,10 +68,6 @@ a{
 }
 .logofooter{
     margin-bottom: 16px;
-}
-main{
-    font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
 }
 .link1{
     width: 69px;
